@@ -89,7 +89,7 @@ const Experience = ({ role, company, period, description, link }: { role: string
       <span>{period}</span>
     </div>
     <p className="text-gray-400">{description}</p>
-    <a className="text-gray-400" href={link} target="_blank">{link}</a>
+    <a className="text-gray-400" href={link} target="_blank" rel="noreferrer">{link}</a>
   </motion.div>
 );
 
